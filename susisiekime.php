@@ -2,34 +2,12 @@
 <html>
 <head>
 	<title>Framework paskaita</title>
-	<meta charset="utf-8">
 
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<?php 
 
-
-	<?php
-
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "rugsejis19";
-
-	// Create connection
-		$conn = mysqli_connect($servername, $username, $password, $dbname);
-	// Check connection
-		if (!$conn) {
-			echo "nepavyko";
-			die("Connection failed: " . mysqli_connect_error());
-		}
-
-		mysqli_set_charset($conn, "utf8");
-
+		include "head-settings.php";
 	?>
 
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -48,7 +26,7 @@
 	</div>
 
 	<div class="container">
-		<h1 class="orange darken-4 blue-text text-lighten-4">Naujienų puslapis</h1>
+		<h1 class="orange darken-4 blue-text text-lighten-4">Antraštė</h1>
 
 
 	<?php
@@ -117,35 +95,14 @@
 		tempor incididunt ut labore et dolore magna aliqua.</p>
 	</div>
 
-	<footer class="page-footer orange">
-		<div class="container">
-			<div class="row">
-				<div class="col l6 s12">
-					<h5 class="white-text">Footer Content</h5>
-					<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-				</div>
-				<div class="col l4 offset-l2 s12">
-					<h5 class="white-text">Links</h5>
-					<ul>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="footer-copyright">
-			<div class="container">
-				© 2014 Copyright Text
-				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-			</div>
-		</div>
-	</footer>
+<?php 
+
+	include "footer.php";
+?>
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-	<script type="text/javascript" src="scripts/script.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
 
 </body>
 </html>

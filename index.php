@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Framework paskaita</title>
+	<title>Flydom</title>
 
 	<?php 
 
-		include "head-setting.php"
+		include "head-settings.php";
 	?>
 
 </head>
@@ -21,7 +21,7 @@
 			<h1 class = "center-align" >Das Auto</h1>
 			<p class = "center-align"> Lorem ipsum dolor sit amet.</p>
 		</div>
-		<div class="parallax"><img src="https://picsum.photos/1920/1080">
+		<div class="parallax"><img src="https://picsum.photos/1920/1080">;
 		</div>
 	</div>
 
@@ -102,7 +102,7 @@
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-	<script type="text/javascript" src="scripts/script.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
 
 </body>
 </html>
