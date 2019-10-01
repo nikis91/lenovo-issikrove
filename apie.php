@@ -18,88 +18,80 @@
 
 	<div class="parallax-container valign-wrapper virsus">
 		<div>
-			<h1 class = "center-align" >Das Auto</h1>
-			<p class = "center-align"> Lorem ipsum dolor sit amet.</p>
+			<h1 class="white-text center-align">Apie mus</h1>
+			<!-- <p class="white-text center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> -->
 		</div>
-		<div class="parallax"><img src="https://picsum.photos/1920/1080">
-		</div>
-	</div>
-
-	<div class="container">
-		<h1 class="orange darken-4 blue-text text-lighten-4">Antraštė</h1>
 
 
-	<?php
-		
-
-		// echo "Pavyko!";
-		// echo "<br><br>";
-
-		$sql = "SELECT * FROM barai";
-		$result = mysqli_query($conn, $sql);
-
-		if (mysqli_num_rows($result) > 0) {
-
-			echo "<table border='1'>";
-
-
-    // output data of each row
-			while($row = mysqli_fetch_assoc($result)) {
-				
-				// print_r($row);
-
-				// echo $row["name"] . " - " . $row["rating"];
-				// echo "<br>";
-
-				echo "<tr>";
-					echo "<td>" . $row["id"] . "</td>";
-    				echo "<td>" . $row["name"] . "</td>";
-    				echo "<td>" . $row["address"] . "</td>";
-    				echo "<td>" . $row["rating"] . "</td>";
-    			echo "</tr>";
-
-			}
-
-			echo "</table>";
-
-		} else {
-			echo "0 results";
-		}
-
-		mysqli_close($conn);
-	?>
+          	<div class="parallax">
+      		<img alt= "lektuvas" src="images/photo_lektuvas.jpg">
+      	</div>
+    </div>
 
 
 		<div class="row">
 
-			<div class="col s12 m12 l4 center-align">
-				<img class="responsive-img" src="https://picsum.photos/200">
-				<h3 class="center-align">Block title</h3>
-				<p class="center-align">Lorem ipsum dolor sit amet, consectetur.</p>
-			</div>
-			<div class="col s12 m6 l4 center-align">
-				<img class="responsive-img" src="https://picsum.photos/200">
-				<h3 class="center-align">Block title</h3>
-				<p class="center-align">Lorem ipsum dolor sit amet, consectetur.</p>
-			</div>
-			<div class="col s12 m6 l4 center-align">
-				<img class="responsive-img" src="https://picsum.photos/200">
-				<h3 class="center-align">Block title</h3>
-				<p class="center-align">Lorem ipsum dolor sit amet, consectetur.</p>
-			</div>
-		</div>
+	      <div class="col s12 m6 l3 center-align">
+	        <img class="responsive-img circle" src="https://picsum.photos/100">
+	        <h3 class="center-align">Ilja</h3>
+	        <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+    <ul class="collapsible">
+    <li>
+      <div class="collapsible-header">
+        <i class="material-icons">flight_takeoff</i>Susipažinkime
+        <span class="new badge" data-badge-caption="Lorem!"></span>
+      </div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</span></div>
+    </li>
+  </ul>
+	      </div>
+
+
+	      <div class="col s12 m6 l3 center-align">
+	        <img class="responsive-img circle" src="https://picsum.photos/100">
+	        <h3 class="center-align">Nikita</h3>
+	        <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+<ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">flight</i>Susipažinkime</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</span></div>
+    </li>
+    </ul>
+	      </div>
+
+
+	      <div class="col s12 m6 l3 center-align">
+	        <img class="responsive-img circle" src="https://picsum.photos/100">
+	        <h3 class="center-align">Žymantas</h3>
+	        <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+          <ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">flight</i>Susipažinkime</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</span></div>
+    </li>
+    </ul>
+</div>
+
+          <div class="col s12 m6 l3 center-align">
+          <img class="responsive-img circle" src="https://picsum.photos/100">
+          <h3 class="center-align">Juta</h3>
+          <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+<ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">flight_land</i>Susipažinkime</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+	    </div>
+
 
 		<img class="materialboxed responsive-img" src="https://picsum.photos/2000/1000">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua.</p>
-	</div>
+		
 
 <?php 
 
 	include "footer.php";
 ?>
-
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<script type="text/javascript" src="script/script.js"></script>

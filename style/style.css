@@ -4,6 +4,7 @@
 .sidenav {
 	background-color: #ccadad;
 }
+
 .brand-logo {
 	color: black;
 }
@@ -21,3 +22,23 @@
 	position: relative;
 	margin-top: 0px;
 }
+
+img.brand-logo{
+	border-radius: 50%;
+	position: absolute;
+	top: 8px;
+	right: 60px;
+}
+img.image{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 50%;
+}
+span{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 5px;
+}
+
