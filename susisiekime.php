@@ -17,19 +17,33 @@
 	?>
 	
 
+
 <div class = "container">
 	
 	<div class = "slide">
-		<img class = "paveikslas" src="images/d2.jpg">
-	</div>
-	<h3 class = "antraste">Duomenys, Informacija ir Nuorodos</h3>
-	<h4 class = "antraste">Duomenys</h4>
-	<p class = "tekstas">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<img class = "paveikslas" src="https://picsum.photos/500">
+	<div class = "tekstas">
+		<h3>Duomenys, Nuorodos ir Informacija</h3>
+		<h4>Duomenys</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<h4>Nuorodos</h4>
+		<a href="https://novaturas.lt" target = "_blank">Draugai</a>
+		<a href="https://makalius.lt" target = "_blank">Draugai</a>
+		<a href="https://guliveriokeliones.lt" target = "_blank">Draugai</a>
+		
+
+	</div>
+	</div>
+		<h4>Informacija</h4>
+
+</div>
+	
 	<form action="https://google.com/search">
 		<input type="text" name="query">
 		<button>Ieškoti</button>
@@ -37,13 +51,9 @@
 
 </div>
 
-	<a href="https://novaturas.lt">Novaturas</a>
 	
 
-		<form action="https://google.com/search">
-		<input type="text" name="query">
-		<button>Ieškoti</button>
-	</form>
+		
 
 
 

@@ -9,18 +9,22 @@
 	color: black;
 }
 
+.slide {
+	position: relative;
+	
+}
+
 .paveikslas {
 	width: 100%;
-	
 }
+
 
 .tekstas {
-	
+	position: absolute;
+	top: 15px;
+	left: 15px;
 }
 
-.antraste {
-	margin-top: 0px;
-}
 
 img.brand-logo{
 	border-radius: 50%;
