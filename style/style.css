@@ -11,15 +11,14 @@
 
 .paveikslas {
 	width: 100%;
-	position: absolute;
+	
 }
 
 .tekstas {
-	position: absolute;
+	
 }
 
 .antraste {
-	position: relative;
 	margin-top: 0px;
 }
 

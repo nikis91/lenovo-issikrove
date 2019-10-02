@@ -7,7 +7,6 @@
 
 		include "head-settings.php";
 	?>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
 <body>
@@ -19,7 +18,10 @@
 	
 
 <div class = "container">
-	<img class = "paveikslas" src="images/d2.jpg">
+	
+	<div class = "slide">
+		<img class = "paveikslas" src="images/d2.jpg">
+	</div>
 	<h3 class = "antraste">Duomenys, Informacija ir Nuorodos</h3>
 	<h4 class = "antraste">Duomenys</h4>
 	<p class = "tekstas">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -28,6 +30,10 @@
 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<form action="https://google.com/search">
+		<input type="text" name="query">
+		<button>Ieškoti</button>
+	</form>
 
 </div>
 
