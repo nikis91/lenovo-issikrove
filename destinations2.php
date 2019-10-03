@@ -29,13 +29,13 @@
 		<h2 class="grey darken-4 blue-text text-lighten-4">Lankytini objektai</h1>
 
 
-<!-- 	<?php
+		<?php
 		
 
 		// echo "Pavyko!";
 		// echo "<br><br>";
 
-		$sql = "SELECT * FROM barai";
+		$sql = "SELECT * FROM pragyvenimas";
 		$result = mysqli_query($conn, $sql);
 
 		if (mysqli_num_rows($result) > 0) {
@@ -48,14 +48,14 @@
 				
 				// print_r($row);
 
-				// echo $row["name"] . " - " . $row["rating"];
+				// echo $row["Produkto pavaidinimas"] . " - " . $row["Kaina"];
 				// echo "<br>";
 
 				echo "<tr>";
-					echo "<td>" . $row["id"] . "</td>";
-    				echo "<td>" . $row["name"] . "</td>";
-    				echo "<td>" . $row["address"] . "</td>";
-    				echo "<td>" . $row["rating"] . "</td>";
+					echo "<td>" . $row["ID"] . "</td>";
+    				echo "<td>" . $row["Produkto pavadinimas"] . "</td>";
+    				echo "<td>" . $row["Kiekis"] . "</td>";
+    				echo "<td>" . $row["Kaina"] . "</td>";
     			echo "</tr>";
 
 			}
@@ -67,7 +67,8 @@
 		}
 
 		mysqli_close($conn);
-	?> -->
+	?>
+
 
 
 
