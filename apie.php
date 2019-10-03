@@ -153,15 +153,7 @@ Suteiksi KLIENTUI galimybę keliauti pigiau!<br>
           <label for="icon_telephone">Telefono numeris</label>
         </div>
 
-<!-- <div class="file-field input-field col s6">
-      <div class="btn">
-        <span>PRisegti gyvenimo aprašymą</span>
-        <input type="file">
-      </div>
-      <div class="file-path-wrapper">
-        <input class="file-path validate" type="text">
-      </div>
-    </div> -->
+
     <div class="row">
     <form class="col s12">
       <div class="row center-align">
@@ -176,6 +168,16 @@ Suteiksi KLIENTUI galimybę keliauti pigiau!<br>
       <div>
       <button class="btn waves-effect waves-light" type="submit" name="action" id="submit" for="submit">Siųsti
 
+<!-- <div class="file-field input-field col s6">
+      <div class="btn">
+        <span>Prisegti gyvenimo aprašymą</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div> -->
+    
 <i class="material-icons right">send</i>
 </button>
 </div>
