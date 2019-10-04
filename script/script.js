@@ -10,5 +10,7 @@ $(document).ready(function(){
     $('.collapsible').collapsible();
     $('.modal').modal();
     $('.pushpin').pushpin();
+
     
 });
+$('.dropdown-trigger').dropdown();
