@@ -21,16 +21,18 @@ body {
 
 
 .paveikslas {
+	display: block;
 	text-align: center;
 	width: 100%
 
 }
 
-/*.paveikslas2 {
+.paveikslas2 {
+	display: block;
 	text-align: center;
 	width: 100%
 
-}*/
+}
 
 
 
@@ -49,7 +51,7 @@ body {
 
 .skaidre2 {
 	position: relative;
-	
+
 }
 
 .tekstas2 {

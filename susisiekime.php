@@ -33,7 +33,7 @@
 
 	
 	<div class = "skaidre2">
-		<img class = "paveikslas" src="https://picsum.photos/400/100">
+		<img class = "paveikslas2" src="https://picsum.photos/400/100">
       	<div class = "tekstas2">
 				<h2>Mūsų padaliniai</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
