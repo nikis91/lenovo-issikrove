@@ -16,18 +16,6 @@
 		include "header.php";
 	?>
 
-	<div class="parallax-container valign-wrapper virsus">
-		<div>
-			<h1 class = "center-align" >Das Auto</h1>
-			<p class = "center-align"> Lorem ipsum dolor sit amet.</p>
-		</div>
-		<div class="parallax"><img src="https://picsum.photos/1920/1080">;
-		</div>
-	</div>
-
-	<div class="container">
-		<h1 class="orange darken-4 blue-text text-lighten-4">Antraštė</h1>
-
 
 	<?php
 		
