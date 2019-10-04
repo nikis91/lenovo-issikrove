@@ -7,5 +7,8 @@ $(document).ready(function(){
     $('.materialboxed').materialbox();
     $('.parallax').parallax();
     $('.sidenav').sidenav();
+    $('.collapsible').collapsible();
+    $('.modal').modal();
+    $('.pushpin').pushpin();
     
 });
