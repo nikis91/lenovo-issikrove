@@ -17,21 +17,6 @@
 	?>
 
 
-  <div class="carousel carousel-slider center">
-    <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white black-text darken-text-2" href="">More</a>
-    </div>
-    <div class="carousel-item white-text parallax" style="background-image: url(https://picsum.photos/1921/1080);" href="#one!">
-     <h2>First Panel</h2>
-      <p class="white-text">This is your first panel</p>
-    </div>
-    <div class="carousel-item amber white-text" style="background-image: url(https://picsum.photos/1920/1080);" href="#two!">
-      <h2>Second Panel</h2>
-      <p class="white-text">This is your second panel</p>
-    </div>
-    </div>
-  </div>
-
 	<?php
 		
 
