@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 
 
-	<?php
+<!-- 	<?php
 
 		$servername = "localhost";
 		$username = "root";
@@ -22,7 +22,7 @@
 
 		mysqli_set_charset($conn, "utf8");
 
-	?>
+	?> -->
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
