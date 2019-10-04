@@ -17,45 +17,6 @@
 	?>
 
 
-	<?php
-		
-
-		// echo "Pavyko!";
-		// echo "<br><br>";
-
-		$sql = "SELECT * FROM barai";
-		$result = mysqli_query($conn, $sql);
-
-		if (mysqli_num_rows($result) > 0) {
-
-			echo "<table border='1'>";
-
-
-    // output data of each row
-			while($row = mysqli_fetch_assoc($result)) {
-				
-				// print_r($row);
-
-				// echo $row["name"] . " - " . $row["rating"];
-				// echo "<br>";
-
-				echo "<tr>";
-					echo "<td>" . $row["id"] . "</td>";
-    				echo "<td>" . $row["name"] . "</td>";
-    				echo "<td>" . $row["address"] . "</td>";
-    				echo "<td>" . $row["rating"] . "</td>";
-    			echo "</tr>";
-
-			}
-
-			echo "</table>";
-
-		} else {
-			echo "0 results";
-		}
-
-		mysqli_close($conn);
-	?>
 
 
 		<div class="row">
