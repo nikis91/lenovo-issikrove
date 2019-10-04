@@ -21,15 +21,17 @@
 
 	  <div class="carousel carousel-slider center">
     <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white black-text darken-text-2" href="">More</a>
+<!--       <a class="btn waves-effect white black-text darken-text-2" href="destinations.php">More</a> -->
     </div>
     <div class="carousel-item white-text parallax" style="background-image: url(https://picsum.photos/seed/a/1920/1080);" href="#one!">
      <h2>First Panel</h2>
       <p class="white-text">This is your first panel</p>
+       <a class="btn waves-effect white black-text darken-text-2" href="destinations.php">More</a>
     </div>
     <div class="carousel-item amber white-text" style="background-image: url(https://picsum.photos/seed/b/1920/1080);" href="#two!">
       <h2>Second Panel</h2>
       <p class="white-text">This is your second panel</p>
+       <a class="btn waves-effect white black-text darken-text-2" href="destinations2.php">More</a>
     </div>
     </div>
   </div>

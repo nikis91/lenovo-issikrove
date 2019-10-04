@@ -15,12 +15,24 @@
 	
 }
 
+body {
+	background-color: #00000024;
+}
+
 
 .paveikslas {
 	text-align: center;
 	width: 100%
-	
+
 }
+
+/*.paveikslas2 {
+	text-align: center;
+	width: 100%
+
+}*/
+
+
 
 .tekstas {
 	position: absolute;
@@ -37,6 +49,7 @@
 
 .skaidre2 {
 	position: relative;
+	
 }
 
 .tekstas2 {
@@ -46,7 +59,7 @@
 	left:50%;
 	transform: translate(-50%, -50%);
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	text-align: justify;
 	width: 100%;
 	color: white;
@@ -61,62 +74,7 @@ h2 {
 }
 
 
-* {
-  box-sizing: border-box;
-}
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #4b41df;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  float: right;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container2 {
-  border-color: pink;
-  border-radius: 5px;
-  background-color: #ffffffb3;
-  padding: 20px;
-}
-
-.col-25 {
-  float: left;
-  width: 20%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 30%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 
 
