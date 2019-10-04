@@ -34,7 +34,7 @@
 	
 	<div class = "skaidre2">
 		<img class = "paveikslas" src="https://picsum.photos/400/100">
-			<div class = "tekstas2">
+      	<div class = "tekstas2">
 				<h2>Mūsų padaliniai</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -63,7 +63,9 @@
 <h2>Užsakymo forma</h2>
 <p class="center-align">UŽPILDYKITE FORMĄ - PASAULIS LAUKIA JŪSŲ!!!</p>
 
-<div class="container2">
+
+
+<!-- <div class="container2">
   <form action="/action_page.php">
     <div class="row">
       <div class="col-25">
@@ -106,7 +108,7 @@
     </div>
   </form>
 </div>
-	
+	 -->
 
 
 		
