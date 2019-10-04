@@ -23,7 +23,7 @@
 		</div>
 
 
-      <div class="parallax">
+        <div class="parallax">
       <img alt= "lektuvas" src="images/lektuvas.jpg">
     </div>
   </div>
@@ -34,12 +34,13 @@
    <div class="col s12 m6 l3 center-align">
      <img class="responsive-img circle" src="https://picsum.photos/100">
      <h3 class="center-align">Ilja</h3>
-     <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+     <p class="center-align">Padės rasti kelią į savo svajonių atostogas!</p>
 
      <div id="modal1" class="modal">
       <div class="modal-content">
         <h4>Ilja</h4>
-        <p>A bunch of text</p>
+        <p>Globalioje turizmo rinkoje ypač lengva pasiklysti. Ilja padės tau atskirti pelus nuo grūdų ir rasti naujausius bei įspūdingiausius kelionių pasiūlymus. Norime įkvėpti Tave neatidėti savo atostogų dar kitiems metams. Išsirink tinkamą pasiūlymą ir leiskis net ir į trumpą kelionę savaitgaliui. O sugrįžus, mes vėl įkvėpsime Tave keliauti.
+</p>
       </div>
       <div class="modal-footer">
         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Uždaryti</a>
@@ -52,11 +53,11 @@
   <div class="col s12 m6 l3 center-align">
    <img class="responsive-img circle" src="https://picsum.photos/100">
    <h3 class="center-align">Nikita</h3>
-   <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+   <p class="center-align">Kelionėse siūlo pasiklysti ir atrasti naują požiūrį</p>
    <div id="modal2" class="modal">
     <div class="modal-content">
       <h4>Nikita</h4>
-      <p>A bunch of text</p>
+      <p> Nuo seniausiųjų laikų skirtingos priežastys paskatindavo žmones išsiruošti į kelionę. O kelionės įkvepia labiau negu bet kas kitas. Taip, ši tiesa sena, tačiau šiandien turime visiškai naują požiūrį. Nikita siūlo keliaujant pasiklysti, ragauti tradicinio maisto, bendrauti su vietiniais, laužyti liežuvį svetima kalba, o ne aklai sekti tradiciniu turistų taku po įžymiausias vietas. Perversk savo kelionių albumą ir pripažink sau, kad jame atsitiktinių šypsenų ir mažų kelionės smulkmenų daug daugiau negu išliaupsintų architektūros šedevrų. Būtent tokios patirtys vėl pažadina troškimą leistis į kelionę.</p>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Uždaryti</a>
@@ -68,11 +69,11 @@
 <div class="col s12 m6 l3 center-align">
  <img class="responsive-img circle" src="https://picsum.photos/100">
  <h3 class="center-align">Žymantas</h3>
- <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+ <p class="center-align">Leis būti kuo nori bet kuriame pasaulio taške</p>
  <div id="modal3" class="modal">
   <div class="modal-content">
     <h4>Žymantas</h4>
-    <p>A bunch of text</p>
+    <p>Žymantas pasiūlys dabar pat užversti sudėtingo, nuobodaus ir daug pastangų reikalaujančio kelionės planavimo proceso puslapį. Šią minutę gali lengva ranka įsigyti bilietus į tą šalį, kurią įtraukei į „labai norėčiau aplankyti, bet, deja" skiltį. Kodėl ne? Šiandien gali būti Niujorko verslininku, o rytoj – banglentininku iš Porto. Na ir kas, kad dar vakar siurbčiojai kavą siauroje Vilniaus senamiesčio gatvelėje. Svarbu yra tik viena – turėti specialistą, užtikrinantį tavo buvimą bet kuriame pasaulio taške. </p>
   </div>
   <div class="modal-footer">
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Uždaryti</a>
@@ -85,11 +86,11 @@
 <div class="col s12 m6 l3 center-align">
   <img class="responsive-img circle" src="https://picsum.photos/100">
   <h3 class="center-align">Juta</h3>
-  <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+  <p class="center-align">Padės žengti pirmąjį žingsnį kelionės link</p>
   <div id="modal4" class="modal">
     <div class="modal-content">
       <h4>Juta</h4>
-      <p>A bunch of text</p>
+      <p>Juta padės žengti pirmąjį žingsnį kelionės link. Ji yra tam, kad patenkintų poilsinių ar verslo kelionių poreikius. Skrydžių bilietų, viešbučių, kelionių, kruizų, automobilių nuomos ir kitų paslaugų paieška ir rezervavimas dar niekada nebuvo toks paprastas - neišėjus iš namų ar biuro! </p>
     </div>
     <div class="modal-footer">
       <a "href="#!" class="modal-close waves-effect waves-green btn-flat">Uždaryti</a>
@@ -103,6 +104,7 @@
 
 
   <li>
+
 
 
     <div class="collapsible-header"><i class="material-icons">business_center</i>Karjera</div>
@@ -174,6 +176,7 @@
               <i class="material-icons right">send</i>
             </button>
           </div>
+
                
 
                         <?php
