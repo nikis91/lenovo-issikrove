@@ -19,24 +19,20 @@
 
 
 
-		<div class="row">
-
-			<div class="col s12 m12 l4 center-align">
-				<img class="responsive-img" src="https://picsum.photos/200">
-				<h3 class="center-align">Block title</h3>
-				<p class="center-align">Lorem ipsum dolor sit amet, consectetur.</p>
-			</div>
-			<div class="col s12 m6 l4 center-align">
-				<img class="responsive-img" src="https://picsum.photos/200">
-				<h3 class="center-align">Block title</h3>
-				<p class="center-align">Lorem ipsum dolor sit amet, consectetur.</p>
-			</div>
-			<div class="col s12 m6 l4 center-align">
-				<img class="responsive-img" src="https://picsum.photos/200">
-				<h3 class="center-align">Block title</h3>
-				<p class="center-align">Lorem ipsum dolor sit amet, consectetur.</p>
-			</div>
-		</div>
+	  <div class="carousel carousel-slider center">
+    <div class="carousel-fixed-item center">
+      <a class="btn waves-effect white black-text darken-text-2" href="">More</a>
+    </div>
+    <div class="carousel-item white-text parallax" style="background-image: url(https://picsum.photos/seed/a/1920/1080);" href="#one!">
+     <h2>First Panel</h2>
+      <p class="white-text">This is your first panel</p>
+    </div>
+    <div class="carousel-item amber white-text" style="background-image: url(https://picsum.photos/seed/b/1920/1080);" href="#two!">
+      <h2>Second Panel</h2>
+      <p class="white-text">This is your second panel</p>
+    </div>
+    </div>
+  </div>
 
 		<img class="materialboxed responsive-img" src="https://picsum.photos/2000/1000">
 
