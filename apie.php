@@ -24,15 +24,14 @@
 
 
         <div class="parallax">
-      <img alt= "lektuvas" src="images/lektuvas.jpg">
+      <img alt= "pagrindine" src="images/apiepagrindine.jpg">
     </div>
   </div>
 
 
   <div class="row">
-
-   <div class="col s12 m6 l3 center-align">
-     <img class="responsive-img circle" src="https://picsum.photos/100">
+   <div class="ilja col s12 m6 l3 center-align">
+     <img class="responsive-img circle" src="images/Ilja.jpg">
      <h3 class="center-align">Ilja</h3>
      <p class="center-align">Padės rasti kelią į savo svajonių atostogas!</p>
 
@@ -50,8 +49,9 @@
   </div>
 
 
-  <div class="col s12 m6 l3 center-align">
-   <img class="responsive-img circle" src="https://picsum.photos/100">
+
+  <div class="nikita col s12 m6 l3 center-align">
+   <img class="responsive-img circle" src="images/Nikita.jpg">
    <h3 class="center-align">Nikita</h3>
    <p class="center-align">Kelionėse siūlo pasiklysti ir atrasti naują požiūrį</p>
    <div id="modal2" class="modal">
@@ -66,8 +66,9 @@
   <button data-target="modal2" class="waves-effect waves-light btn modal-trigger">Susipažinkime</button>
 </div>
 
+
 <div class="col s12 m6 l3 center-align">
- <img class="responsive-img circle" src="https://picsum.photos/100">
+ <img class="responsive-img circle" src="images/Zymantas.jpg">
  <h3 class="center-align">Žymantas</h3>
  <p class="center-align">Leis būti kuo nori bet kuriame pasaulio taške</p>
  <div id="modal3" class="modal">
@@ -84,7 +85,7 @@
 
 
 <div class="col s12 m6 l3 center-align">
-  <img class="responsive-img circle" src="https://picsum.photos/100">
+  <img class="responsive-img circle" src="images/Juta.jpg">
   <h3 class="center-align">Juta</h3>
   <p class="center-align">Padės žengti pirmąjį žingsnį kelionės link</p>
   <div id="modal4" class="modal">
@@ -219,6 +220,7 @@
              </li>
 </ul>
                  <br>
+
 
                   <img class="materialboxed responsive-img" src="https://picsum.photos/2000/1000">
 
