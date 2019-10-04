@@ -5,12 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 
 
-<!-- 	<?php
+	<?php
 
 		$servername = "localhost";
 		$username = "root";
 		$password = "";
-		$dbname = "rugsejis19";
+		$dbname = "projektas";
 
 	// Create connection
 		$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -22,7 +22,11 @@
 
 		mysqli_set_charset($conn, "utf8");
 
-	?> -->
+	?> 
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
