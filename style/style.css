@@ -141,4 +141,60 @@ span{
 	.carousel{
 		height: 600px !important;
 	}
+	.naujienu-sarasas {
+	display: flex;
+	justify-content: space-evenly;
+}
+.naujiena {
+	width: 300px;
+	top: 30px;
+}
 
+.naujiena img {
+	width: 100%;
+	height: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.naujiena p,
+.naujiena h3 {
+	text-align: center;}
+
+.antraste{
+	font-style: italic;
+	color: white;}
+h3{
+	color: black;
+	font-style: oblique;
+}
+.naujiena,
+p
+{
+	font-style: italic;}
+h2{
+	font-style: italic;
+	text-align: center;
+}
+.offers{
+	display: flex;
+	justify-content: space-evenly;}
+
+.offer{
+	width: 300px;
+	top: 30px;
+	border:10px;
+	 border-style: double; 
+	 border-color: black; 
+	 padding: 1em;
+	 background-color: white
+}
+.offer h5,
+.offer p{
+	text-align: center;
+}
+.medium{
+	width: 100%;
+	height: 10px;
+	text-align: center;
+}
