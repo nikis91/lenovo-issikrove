@@ -11,10 +11,13 @@ $(document).ready(function(){
     $('.collapsible').collapsible();
     $('.modal').modal();
     $('.pushpin').pushpin();
+    $('select').formSelect();
+    // $('select').material_select();
 
     
 });
 $('.dropdown-trigger').dropdown();
+
 
 $('.slickas').slick({
   slidesToShow: 3,
@@ -64,3 +67,4 @@ $(document).ready(function(){
     } // End if
   });
 });
+

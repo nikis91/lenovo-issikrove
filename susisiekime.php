@@ -7,6 +7,9 @@
 
 		include "head-settings.php";
 	?>
+   
+  
+
 
 </head>
 <body>
@@ -45,70 +48,89 @@
 			</div>
 	</div>
 
-	 <!-- <div class="row">
+  <h2>Užsakymo forma</h2>
+  <p class="center-align">UŽPILDYKITE FORMĄ - PASAULIS LAUKIA JŪSŲ!!!</p>
+
+	<div class="row">
       <div class="col s6">
 
-      	6-columns (one-half)
+      	VILNIUS
+
+        <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Įveskite vardą" id="first_name" type="text" class="validate">
+          <label for="first_name">Vardas</label>
+        </div>
+        </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Įveskite norimą šalį" id="salis" type="text" class="validate">
+          <label for="password">Šalis</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">El. paštas</label>
+        </div>
+      </div>
+      <div class="input-field col s12">
+    <select>
+      <option value="" disabled selected>Pasirinkite veiksmą</option>
+      <option value="1">Padaryti užsakymą</option>
+      <option value="2">Užsiregistruoti konsultacijai</option>
+      <option value="3">Palikti atsiliepimą</option>
+    </select>
+    <label>Pasirinkite veiksmą:</label>
+  </div>
+  <a class="waves-effect waves-light btn color blue">Išsiųsti</a>
+    </form>
+  </div>
+
+
 
       </div>
       <div class="col s6">
 
-     	 6-columns (one-half)
+     	 KAUNAS
+
+       <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Įveskite vardą" id="first_name" type="text" class="validate">
+          <label for="first_name">Vardas</label>
+        </div>
+        </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Įveskite norimą šalį" id="salis" type="text" class="validate">
+          <label for="password">Šalis</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">El. paštas</label>
+        </div>
+      </div>
+      <div class="input-field col s12">
+    <select>
+      <option value="" disabled selected>Pasirinkite veiksmą</option>
+      <option value="1">Padaryti užsakymą</option>
+      <option value="2">Užsiregistruoti konsultacijai</option>
+      <option value="3">Palikti atsiliepimą</option>
+    </select>
+      <label>Pasirinkite veiksmą:</label>
+      </div>
+      <a class="waves-effect waves-light btn color blue">Išsiųsti</a>
+    </form>
+  </div>
 
       </div>
-    </div> -->
-
-  
-
-<h2>Užsakymo forma</h2>
-<p class="center-align">UŽPILDYKITE FORMĄ - PASAULIS LAUKIA JŪSŲ!!!</p>
-
-
-
-<!-- <div class="container2">
-  <form action="/action_page.php">
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">Vardas</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="fname" name="vardas" placeholder="Įveskite vardą..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">El. paštas (ne paštetas)</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="pastas" placeholder="Įveskite el. paštą..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="country">Pasirinkite veiksmą</label>
-      </div>
-      <div class="col-75">
-        <select id="veiksmas" name="veiksmas">
-          <option value="uzsakyti">Padaryti užsakymą</option>
-          <option value="konsultacija">Užsiregistruoti konsultacijai</option>
-          <option value="atsiliepimas">Palikti atsiliepimą</option>
-        </select>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Subject</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <input type="submit" value="Submit">
-    </div>
-  </form>
-</div>
-	 -->
+  </div>
 
 
 		
@@ -131,6 +153,7 @@
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script type="text/javascript" src="script/script.js"></script>
 
 </body>
