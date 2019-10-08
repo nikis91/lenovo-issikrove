@@ -111,15 +111,15 @@
     <div class="collapsible-header"><i class="material-icons">business_center</i>Karjera</div>
 
     <div class="collapsible-body">
-      <b><h style="color:orange">DĖMESIO!</b></h><br>
+      <b><h9 style="color:orange">DĖMESIO!</b></h><br>
       Ieškome dar vieno ar net dviejų šeimos narių!<br>
       Jei Tu esi savimi pasitinkintis, ambicingas, atsakingas ir turi puikius bendravimo įgūdžius, tuomet kviečiame Tave prisijungti prie mūsų veržlios komandos!<br>
-      <b><h style="color:orange">DARBO POBŪDIS:</b></h><br>
+      <b><h9 style="color:orange">DARBO POBŪDIS:</b></h><br>
       Bendravimas su klientais, kurie ieško kokybiško poilsio;<br>
       Nepriekaištingas kiekvieno kliento aptarnavimas;<br>
       Atsakomybė už asmeninių pardavimų augimą;<br>
       Sutarčių sudarymas.<br>
-      <b><h style="color:orange">KOKIO KOLEGOS IEŠKOME?</b></h><br>
+      <b><h9 style="color:orange">KOKIO KOLEGOS IEŠKOME?</b></h><br>
       Tokio, kuris vertina gerą savo bei organizacijos vardą;<br>
       Yra motyvuotas;<br>
       Turi puikius teksto rašymo įgūdžius;<br>
@@ -128,13 +128,13 @@
       Turi puikų humoro jausmą;<br>
       Yra beprotiškai atsakingas.<br>
       Svarbiausia ne tik tai, ką Tu moki, bet ir Tavo asmenybė!<br>
-      <b><h style="color:orange">KODĖL VERTA RINKTIS MUS?</b></h><br>
+      <b><h9 style="color:orange">KODĖL VERTA RINKTIS MUS?</b></h><br>
       Nuoširdus ir draugiškas kolektyvas<br>
       Vertinama iniciatyva<br>
       Stabilus bei nuo Tavo rezultatų didėjantis atlyginimas<br>
       Nemokamos kelionės<br>
       Suteiksi KLIENTUI galimybę keliauti pigiau!<br>
-      <b><h style="color:orange">RAŠYK:</b> </h>
+      <b><h9 style="color:orange">RAŠYK:</b> </h>
       <a href="mailto:negausitutodarbo@flydom.lt?subject=Gyvenimo aprašymas vadybininko pozicijai užimti">negausitutodarbo@flydom.lt</a>
       <br><br><br>
 
