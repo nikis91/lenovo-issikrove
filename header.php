@@ -9,21 +9,12 @@
 				<li><a href="index.php">Titulinis</a></li>
 				<li><a href="susisiekime.php">Susisiekime</a></li>
 				<li><a href="apie.php">Apie</a></li>
-				<ul id="dropdown2" class="dropdown-content">
-    <li><a style="color: black;" href="#!">English</a></li>
-    <li><a style="color: black;" href="#!">Spanish</a></li>
-    <li><a style="color: black;" href="#!">Arabic</a></li>
-    <li><a style="color: black;" href="#!">Lithuanian</a></li>
-  </ul>
-  <a style="background-color: blue;" class="btn dropdown-trigger" href="#!" data-target="dropdown2">Language<i class="material-icons right">arrow_drop_down</i></a>
-  
-
-  		
+  		</ul>
+	</div>
 	</nav>
 
-	<ul class="sidenav" id="mobile-demo">
-		<li><a href="index.php">Titulinis</a></li>
-		<li><a href="susisiekime.php">Susisiekime</a></li>
-		<li><a href="apie.php">Apie</a></li>
-	
-	</ul>
+	<ul style="background-color: lightblue;" class="sidenav" id="mobile-demo">
+    <li><a href="index.php">Titulinis</a></li>
+    <li><a href="susisiekime.php">Susisiekime</a></li>
+    <li><a href="apie.php">Apie</a></li>
+  </ul>
