@@ -49,7 +49,7 @@
 </div>
 
 
-  	<h2 style="color: white;" class= antraste>More places to see</h2> 	
+  	<h2 style="color: white; background-color: darkblue;" class= antraste>More places to see</h2> 	
 	<div class="blokai">
 		<div class="blokas">
 			<img style="border-radius: 20%; border-style: solid;"  src="https://picsum.photos/seed/21/1920/1080">
