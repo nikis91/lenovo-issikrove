@@ -92,7 +92,7 @@ img.image{
 	transform: translateY(-50%);
 	border-radius: 50%;
 }
-span{
+span.nav-tekstas{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
