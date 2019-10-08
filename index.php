@@ -50,20 +50,20 @@
 
 
   	<h2 style="color: white;" class= antraste>More places to see</h2> 	
-	<div class="naujienu-sarasas">
-		<div class="naujiena">
+	<div class="blokai">
+		<div class="blokas">
 			<img style="border-radius: 20%; border-style: solid;"  src="https://picsum.photos/seed/21/1920/1080">
 			<h3>Antraste</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. <a href="https://www.google.com" target="blank">Learn more</a></p>
 
 
 		</div>
-		<div class="naujiena">
+		<div class="blokas">
 			<img style="border-radius: 20%; border-style: solid;" src="https://picsum.photos/seed/27/1920/1080">
 			<h3>Antraste</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. <a href="https://www.google.com" target="blank">Learn more</a></p></p>
 		</div>
-		<div class="naujiena">
+		<div class="blokas">
 			<img style="border-radius: 20%; border-style: solid;" src="https://picsum.photos/seed/22/1920/1080">
 			<h3>Antraste</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. <a href="https://www.google.com" target="blank">Learn more</a></p></p>
