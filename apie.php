@@ -145,7 +145,7 @@
           <div class="row">
            <div class="input-field col s4">
             <i class="material-icons prefix">account_circle</i>
-            <input name=vardas id="icon_prefix" type="text" class="validate" value="kazaks">
+            <input name=vardas id="icon_prefix" type="text" class="validate">
             <label for="icon_prefix">Tavo vardas</label>
 
 
@@ -153,13 +153,13 @@
 
           <div class="input-field col s4">
             <i class="material-icons prefix">email</i>
-            <input name="emailas" id="icon_email" type="email" class="validate" value="kazaks@kjsd.lt">
+            <input name="emailas" id="icon_email" type="email" class="validate">
             <label for="icon_email">El pašto adresas</label>
           </div>
 
           <div class="input-field col s4">
             <i class="material-icons prefix">phone</i>
-            <input name="numberis" id="icon_telephone" type="tel" class="validate" value="34545555">
+            <input name="numberis" id="icon_telephone" type="tel" class="validate">
             <label for="icon_telephone">Telefono numeris</label>
           </div>
 
@@ -167,7 +167,7 @@
           <div class="row center-align">
             <div class="input-field col s6">
               <i class="material-icons prefix">mode_edit</i>
-              <textarea name="laiskas" id="icon_prefix2" class="materialize-textarea">hhjasjdh</textarea>
+              <textarea name="laiskas" id="icon_prefix2" class="materialize-textarea"></textarea>
               <label for="icon_prefix2">Motyvacinis laiškas</label>
             </div>
           </div>
